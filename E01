@@ -1,0 +1,4 @@
+#Lista2_E01
+c = int(input("Insira os graus: "))
+f = 1.8 * c + 32
+print(f"Em Fihrenheit isso seria: {f}°F")
