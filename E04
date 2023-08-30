@@ -1,0 +1,5 @@
+#Lista2_E04
+p = float(input("Insira o peso em kg: "))
+a = float(input("Insira a altura em metros: "))
+imc = p / (a**2)
+print(f"O valor do IMC é: {round(imc, 2)}")
