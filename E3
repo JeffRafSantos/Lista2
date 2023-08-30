@@ -1,0 +1,5 @@
+#Lista2_E03
+from math import pi
+r = int(input("Insira o raio da esfera: "))
+v = (4/3) * pi * pow(r, 3)
+print(f"O volume da esfera é: {round(v, 2)}")
