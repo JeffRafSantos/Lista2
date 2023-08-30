@@ -1,0 +1,5 @@
+#Lista2_E02
+km = int(input("Insira a quilometragem: "))
+l = int(input("Insira quantos litros de combustível foram usados: "))
+m = km / l
+print(f"Seu veículo percorre em média: {m}Km/l")
