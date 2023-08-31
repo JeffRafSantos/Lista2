@@ -1,0 +1,10 @@
+#Lista2_E06
+d = float(input("Qual a distância em metros: "))
+cm = d*100.0
+c_pe = cm / 30.48
+c_po = cm / 2.54
+c_j = cm / (3*30.48)
+print(f"A distância de {round(d, 0)} m é equivalente a:")
+print(f"{round(c_pe, 2)} pés.")
+print(f"{round(c_po, 2)} polegadas.")
+print(f"{round(c_j, 2)} jardas.")
