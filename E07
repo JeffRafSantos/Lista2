@@ -1,0 +1,8 @@
+#Lista2_E07
+m_ps = float(input("Insira a leitura da energia em kwh do mês passado: "))
+m_at = float(input("Insira a leitura da energia em kwh do mês atual: "))
+imcs = 0.27
+kwh = m_at - m_ps
+custo = kwh * 0.38
+custo_m = custo + (custo*imcs)
+print(f"O valor da conta de energia é: {custo_m:.2f} reais")
