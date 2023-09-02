@@ -1,0 +1,5 @@
+#Lista2_E08
+gb = int(input("Insira a capacidade do disco rígido em GB: "))
+gibi = gb*0.9312
+print(f"O disco rígido possui: {gibi} GiB")
+# transformação 465.6/500 == 0.9312
